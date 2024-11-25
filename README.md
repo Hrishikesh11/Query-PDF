@@ -4,7 +4,8 @@ This project implements an AI agent that leverages the capabilities of a large l
 
 ## Project Structure
 
-project-folder/ │ ├── app.py # Streamlit app for user interface ├── requirements.txt # List of dependencies ├── .env # Environment variables (API keys, config) │ └── services/ # Contains core service implementations ├── chroma_client.py # Client for managing ChromaDB ├── model_wrapper.py # Wrapper for interacting with OpenAI LLM ├── pdf_parser.py # PDF content extraction and parsing └── qa_agent.py # Main question-answering agent logic
+project-folder
+<br /> ├── app.py # Streamlit app for user interface<br /> ├── requirements.txt # List of dependencies<br /> ├── .env # Environment variables (API keys, config)<br />   |└── services/ # Contains core service implementations<br />   ├── chroma_client.py # Client for managing ChromaDB<br />   ├── model_wrapper.py # Wrapper for interacting with OpenAI LLM<br /> ├── pdf_parser.py # PDF content extraction and parsing<br /> └── qa_agent.py # Main question-answering agent logic
 
 ## Description of Files
 
@@ -30,7 +31,7 @@ project-folder/ │ ├── app.py # Streamlit app for user interface ├─�
 
 ### Step 1: Clone the repository
 
-```bash
+bash
 git clone <repository-url>
 cd <project-folder>
 ### Step 2: Create a virtual environment (optional but recommended)
